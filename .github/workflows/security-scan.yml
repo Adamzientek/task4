@@ -27,5 +27,5 @@ jobs:
 
       - name: Run Semgrep SAST
         uses: returntocorp/semgrep-action@v1
-          with:
+        with:
           config: p/security-audit
